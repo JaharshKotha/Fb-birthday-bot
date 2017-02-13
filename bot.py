@@ -13,9 +13,9 @@ def some_action(post):
     In this implementation we just print the post's created time.
     """
     #print "we will be printing the posts one bybone\n"
-    x="test"
+   # x="test"
     msg=post['message']
-    bdaywords = ["test"]
+    bdaywords = ["happy","bday","birthday","returns","many"]
     if( (x) in msg):
         print post['id']
         graph.put_object(parent_object=post['id'], connection_name='comments', message='First!')
