@@ -1,7 +1,5 @@
 """
-A simple example script to get all posts on a user's timeline.
-Originally created by Mitchell Stewart.
-<https://gist.github.com/mylsb/10294040>
+pip install fb's graph sdk 
 """
 import facebook
 import requests
