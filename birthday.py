@@ -1,3 +1,7 @@
+"""
+pip install fb's graph sdk 
+"""
+
 import facebook
 import requests
 
