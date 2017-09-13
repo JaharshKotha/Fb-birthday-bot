@@ -12,7 +12,7 @@ def some_action(post):
             graph.put_object(parent_object=post['id'], connection_name='comments', message='Thank you!')
 
 
-graph = facebook.GraphAPI(access_token='EAACEdEose0cBAI3DSQmfCn9KIV8bLZCTuI7zGVUcFzKUY18y69UjZASH8egvKZBa8Bos0LQ06esvksEATzGG2ln0oIWOMJZATaA7x7TCrFBAwa8qYjmoVdo3f4kb0wCgpMFgXomVvxJHu7cZBQE6nzUFt8Jp0JINBf7M8Qu1oNqm1KIuijQl1BZA9sf4Rg9mcZD')
+graph = facebook.GraphAPI(access_token='')
 
 profile = graph.get_object("me")
 posts = graph.get_connections(profile['id'], 'posts')
